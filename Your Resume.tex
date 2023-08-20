@@ -1,7 +1,90 @@
-\documentclass{article}
+\documentclass[11pt,a4paper,sans]{moderncv} % Font options: 'sans' or 'roman'
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey}   % Color options: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey', and 'black'
+
+% Adjust the page margins
+\usepackage[scale = .82]{geometry}
+
+% Personal data
+\name{}{Grant Smith}
+\address{123 Street Name}{City, 12345}{Country}
+\phone[mobile]{+1~(234)~567~890}
+\email{johndoe@example.com}
+\social[linkedin]{jdoe}
+\social[github]{jdoe}
+% \homepage{www.johndoe.com}
+% \photo[64pt][0.4pt]{example-image} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A quote from you, if you wish"}
 
 \begin{document}
 
-Hello, LaTeX!
+\makecvtitle % Print the CV title
+
+\section{Education}
+\cventry{2022--2022}{Mathematics, M.A.}{The University of Kansas}{Lawrence}{}{}
+\cventry{2020--2020}{Mathematics, M.A.}{University of Missouri Kansas City}{Kansas City}{}{}
+\cventry{2012--2016}{Chemical Engineering, B.S.}{The University of Kansas}{Lawrence}{}{}  % Arguments can be left empty
+
+\section{Work Experience}
+\cventry{2022--Present}{Quantitative Developer}{Security Benefit}{Topeka}{KS}{Worked on our derivative valuation software.\newline{}%
+Detailed achievements:
+\begin{itemize}%
+\item Achievement 1;
+\item Achievement 2.
+\end{itemize}}
+\cventry{2022--Present}{Quantitative Developer}{Security Benefit}{Topeka}{KS}{Worked on our derivative valuation software.\newline{}%
+Detailed achievements:
+\begin{itemize}%
+\item Achievement 1;
+\item Achievement 2.
+\end{itemize}}
+
+\section{Teaching Experience}
+\cventry{2022--Present}{Quantitative Developer}{Security Benefit}{Topeka}{KS}{Worked on our derivative valuation software.\newline{}%
+Detailed achievements:
+\begin{itemize}%
+\item Achievement 1;
+\item Achievement 2.
+\end{itemize}}
+\cventry{2022--Present}{Quantitative Developer}{Security Benefit}{Topeka}{KS}{Worked on our derivative valuation software.\newline{}%
+Detailed achievements:
+\begin{itemize}%
+\item Achievement 1;
+\item Achievement 2.
+\end{itemize}}
+
+\section{Languages}
+\cvitemwithcomment{Language 1}{Skill level}{Comment}
+\cvitemwithcomment{Language 2}{Skill level}{Comment}
+
+\section{Computer skills}
+\cvdoubleitem{Category 1}{Comment}{Category 4}{Comment}
+\cvdoubleitem{Category 2}{Comment}{Category 5}{Comment}
+
+\section{Interests}
+\cvitem{Hobby 1}{Description}
+\cvitem{Hobby 2}{Description}
+
+\section{Comments From Peers}
+\cvitem{Security Benefit}{
+% make an unordered list
+\begin{itemize}
+    \item \textit{What I really appreciate about Grant is how proactive he is. Simply put, he makes problems go away.}
+    \item \textit{I have not met a more team-first person than Grant.}
+    \item \textit{I keep finding Grant's documentation in here and it keeps saving my butt.}
+\end{itemize}    
+}
+\cvitem{Students}{
+    \begin{itemize}
+    \item \textit{Super friendly, kind, nice and caring. You can tell he truly
+    loves what he does! definitely recommend and take again.}
+    \item \textit{There is never a dull moment in his class. I would take his
+    class anytime and recommend others to take as well.}
+    \item \textit{He has an uncanny ability to sense when your ADHD brain begins
+    to zone out and immediately refocuses the class.}
+\end{itemize}    
+}
+
 
 \end{document}
