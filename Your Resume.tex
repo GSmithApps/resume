@@ -1,14 +1,9 @@
-\documentclass[11pt,a4paper,sans]{moderncv} % Font options: 'sans' or 'roman'
+\documentclass[11pt,a4paper,sans]{moderncv}
 
-\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{grey}   % Color options: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey', and 'black'
+\moderncvstyle{casual}
+\moderncvcolor{grey}
 
-% Adjust the page margins
 \usepackage[scale = .82]{geometry}
-% \usepackage{hyperref}
-% \href{https://www.youtube.com/@grantsmith3653/featured}{YouTube}
-% 
-
 
 % Personal data
 \name{Developer Advocate}{Grant Smith}
@@ -17,93 +12,81 @@
 \email{14.gsmith.14@gmail.com}
 \social[linkedin]{grant-smith-895b64a4}
 \social[github]{GSmithApps}
-% \homepage{www.johndoe.com}
-% \photo[64pt][0.4pt]{example-image} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-% \quote{"A quote from you, if you wish"}
 
 \begin{document}
 
-\makecvtitle % Print the CV title
-
+\makecvtitle
 
 \section{Community Engagement and Content Creation}
-\cventry{2022--2022}{Meetup Presenter}{\href{https://www.meetup.com/east-bay-tri-valley-machine-learning-meetup/}{East Bay Machine Learning Meetup}}{Virtual}{}{Has presented six times within the last year on various deep learning topics.}
-\cventry{2022--2022}{Career Fair Representative}{\href{https://www.securitybenefit.com/splash-page}{Security Benefit}}{Various}{KS}{Go-to representative for career fairs.  Found and hired two interns, one of whom we hired full time, and the other of whom
-was my report and we are hoping to hire full time at the end of the year.}
-\cventry{2022--2022}{Content Creator (Personal)}{\href{https://www.youtube.com/@grantsmith3653/featured}{YouTube}, \href{https://medium.com/@14.gsmith.14}{Medium}, \href{https://github.com/GSmithApps}{Github}, \href{https://www.kaggle.com/grannysmithapples}{Kaggle}}{}{}{Has lightly been making Youtube videos and other content for the last 6 years.}
+\cventry{2022--2022}
+    {Meetup Presenter}
+    {\href{https://www.meetup.com/east-bay-tri-valley-machine-learning-meetup/}{East Bay Machine Learning Meetup}}
+    {Virtual}{}
+    {\href{https://www.youtube.com/playlist?list=PLytZkHFJwKUf-P1Q_AD-hvYKyH0VREKWw}
+        {Has presented five times within the last year on various deep learning topics.}}
+\cventry{2022--2022}{Career Fair Representative}
+    {\href{https://www.securitybenefit.com/splash-page}{Security Benefit}}{Various}{KS}
+    {Go-to representative for career fairs.
+    Found and hired two interns, one of whom we hired full time,
+    and the other of whom was my report and we are hoping to hire full time at the end of the year.}
+\cventry{2022--2022}{Content Creator (Personal)}
+    {\href{https://www.youtube.com/@grantsmith3653/featured}{YouTube},
+    \href{https://medium.com/@14.gsmith.14}{Medium},
+    \href{https://github.com/GSmithApps}{Github},
+    \href{https://www.kaggle.com/grannysmithapples}{Kaggle},
+    \href{https://www.geogebra.org/u/gsmithapples}{GeoGebra},
+    }
+    {}{}{\href{https://www.youtube.com/@grantsmith3653/featured}{Has lightly been making Youtube videos and other content for the last 6 years.}}
 
 \section{Teaching Experience}
-\cventry{2021--2022}{Data Analytics Boot Camp Instructor}{\href{https://www.edx.org/boot-camps/data-analytics?linked_from=sitenav}{EdX / Ohio State University}}{Virtual}{}{Taught an online data analytics boot camp.%
+\cventry{2021--2022}{\href{https://www.edx.org/boot-camps/data-analytics?linked_from=sitenav}{Data Analytics Boot Camp Instructor}}{EdX / Ohio State University}{Virtual}{}{Taught an online data analytics boot camp.%
     \begin{itemize}%
-    \item 5 star rating from each student -- in both review to EdX and Rate My Professor.
-    \item Taught the class in the evenings while working full time.
-    \end{itemize}
+        \item 5 star rating from each student -- in both review to EdX and \href{https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2720862}{Rate My Professor}.
+        \item Taught the class in the evenings while working full time.
+    \end{itemize}%
 }
 \cventry{2022}{Pre Calculus Instructor}{The University of Kansas}{Lawrence}{KS}{Taught two classes of pre-calculus at The University of Kansas.%
     \begin{itemize}%
-    \item Also 5 star rating from each student -- in both review to KU and Rate My Professor.
-    \end{itemize}
+        \item Also 5 star rating from each student -- in both review to KU and \href{https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2771200}{Rate My Professor}.
+    \end{itemize}%
 }
 
 \section{Work Experience}
-
 \cventry{2022--Present}{Quantitative Developer}{\href{https://www.securitybenefit.com/splash-page}{Security Benefit}}{Topeka}{KS}{Worked on our derivative valuation software.
     \begin{itemize}
-    \item Initiated our documentation effort.
-    \item Was part of our leadership group.
+        \item Initiated our documentation effort.
+        \item Was part of our leadership group.
+    \end{itemize}
+}
+\cventry{2020--2021}{Business Intelligence Developer}{\href{https://www.bv.com}{Black and Veatch}}{Overland Park}{KS}{Developed business intelligence solutions with Power BI and other BI and data engineering tools.}
+\cventry{2019--2020}{Software Developer, Implementation Engineer}{\href{https://www.prometheusgroup.com/solutions/asset-performance-management-software}{Atonix Digital (Black and Veatch Subsidiary, now owned by Prometheus Group)}}{Overland Park}{KS}{Began on the implementation team to onboard new clients. Worked way into role on the development team.}
+\cventry{2016--2019}{Data Manager, Chemical Engineer}{\href{https://www.bv.com/industries/gas-fuels-chemicals}{Black and Veatch}}{Overland Park}{KS}{Began career as chemical engineer, but fell in love with programming. Redirected career toward that goal.}
+
+\section{Education}
+\cventry{2022}{\href{https://www.credly.com/badges/3c754523-d992-47d9-b500-d7b5b18daf92/public_url}{Certified Cloud Practitioner}}{AWS}{Virtual}{}{Earned Amazon Web Services Cloud Practitioner Certification.}
+\cventry{2022}{\href{https://mathematics.ku.edu/graduate-program}{Mathematics, M.A.}}{The University of Kansas}{Lawrence}{KS}{Spent a semeter as a master's student. Left early for quant opportunity.}
+\cventry{2012--2016}{\href{https://cpe.ku.edu}{Chemical Engineering, B.S.}}{The University of Kansas}{Lawrence}{KS}{
+    \begin{itemize}
+        \item \href{https://business.ku.edu/undergraduate-programs/degree-programs/minor-business}{Business minor.}
+        \item \href{https://jayhawkglobal.ku.edu/leadership-certificate}{Leadership certificate.}
+        \item Dean's List for academic achievement. 3.85 GPA.
+        \item Was the president of his fraternity, which included managing 100+ students, 70+ of which lived in the house.
     \end{itemize}
 }
 
-\cventry{2020--2021}{Business Intelligence Developer}{Black and Veatch}{Overland Park}{KS}{Developed business intelligence solutions with Power BI and other BI and data engineering tools.\newline{}%
-}
-\cventry{2019--2020}{Software Developer, Implementation Engineer}{\href{https://www.prometheusgroup.com/solutions/asset-performance-management-software}{Atonix Digital (Black and Veatch Subsidiary, now owned by Prometheus Group)}}{Overland Park}{KS}{Began on the implementation team to onboard new clients. Worked way into role on the development team.\newline{}%
-}
-\cventry{2016--2019}{Data Manager, Chemical Engineer}{
-    \href{https://www.bv.com/industries/gas-fuels-chemicals}{Black and Veatch}
-    }{Overland Park}{KS}{Began career as chemical engineer, but fell in love with programming. Redirected career toward that goal.\newline{}%
-}
-
-
-
-\section{Education}
-\cventry{2022}{Mathematics, M.A.}{The University of Kansas}{Lawrence}{KS}{Spent a semeter as a master's student. Left early for quant opportunity.}
-\cventry{2020}{Mathematics, M.A.}{University of Missouri Kansas City}{Kansas City}{MO}{Took a course in the evenings while working full time.}
-\cventry{2012--2016}{Chemical Engineering, B.S.}{The University of Kansas}{Lawrence}{KS}{
-\begin{itemize}
-    \item Dean's List for academic achievement. 3.85 GPA.
-    \item Was the president of his fraternity, which included managing 100+ students, 70+ of which lived in the house.
-\end{itemize}
-}  % Arguments can be left empty
-
-
 \section{Comments From Peers}
 \cvitem{Security Benefit}{
-    % make an unordered list
     \begin{itemize}
         \item \textit{What I really appreciate about Grant is how proactive he is. Simply put, he makes problems go away.}
         \item \textit{I have not met a more team-first person than Grant.}
         \item \textit{I keep finding Grant's documentation in here and it keeps saving my butt.}
-\end{itemize}    
+    \end{itemize}
 }
 \cvitem{Students}{
     \begin{itemize}
-        \item \textit{Super friendly, kind, nice and caring. You can tell he truly
-        loves what he does! definitely recommend and take again.}
-        \item \textit{He has an uncanny ability to sense when your ADHD brain begins
-        to zone out and immediately refocuses the class.}
-    \end{itemize}    
-    }
-    
-    \end{document}
-    
-    % \section{Languages}
-    % \cvitemwithcomment{Language 1}{Skill level}{Comment}
-    % \cvitemwithcomment{Language 2}{Skill level}{Comment}
-    
-    % \section{Computer skills}
-    % \cvdoubleitem{Category 1}{Comment}{Category 4}{Comment}
-    % \cvdoubleitem{Category 2}{Comment}{Category 5}{Comment}
-    
-    % \section{Interests}
-    % \cvitem{Hobby 1}{Description}
-    % \cvitem{Hobby 2}{Description}
+        \item \textit{\href{https://www.ratemyprofessors.com/rating/35222252?utm_source=share&utm_medium=web&utm_campaign=prof_rating}{Super friendly, kind, nice and caring. You can tell he truly loves what he does! Definitely recommend and take again.}}
+        \item \textit{\href{https://www.ratemyprofessors.com/rating/35209449?utm_source=share&utm_medium=web&utm_campaign=prof_rating}{He has an uncanny ability to sense when your ADHD brain begins to zone out and immediately refocuses the class.}}
+    \end{itemize}
+}
+
+\end{document}
