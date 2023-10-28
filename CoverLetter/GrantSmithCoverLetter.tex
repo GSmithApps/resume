@@ -1,31 +1,64 @@
-\documentclass[a4paper,10pt]{letter}
-\usepackage[utf8]{inputenc}
-\usepackage{geometry}
 
-% Adjust the page margins
-\geometry{top=1.0in, bottom=1.0in, left=1.5in, right=1.5in}
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+
+% moderncv themes
+\moderncvstyle{casual}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey}                              % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}
+%\setlength{\makecvtitlenamewidth}{10cm}
+
+% personal data
+\name{Grant Smith}{}
+\address{550 Stoneridge Dr Apt C206}{Lawrence Kansas, 66049}{}
+\phone[mobile]{+1~(913)~660~5415}
+\email{14.gsmith.14@gmail.com}
+\social[linkedin]{grant-smith-895b64a4}
+\social[github]{GSmithApps}
+
+\title{Resumé title}
+
 
 \begin{document}
 
-\begin{letter}{Recipient Name \\
-Company Name \\
-Company Address \\
-City, Postal Code}
+\recipient{To the hiring manager}{}
+\date{\today}
+\opening{Estimado Destinatario,}
+\closing{Thank you for your time,}
+\makelettertitle
 
-\opening{Dear [Recipient's Name],}
+I'm writing about the Developer Advocate position at [Company Name]. My background
+includes roles as a software developer, teacher, MeetUp presenter, and content
+creator. I believe these experiences make me a good fit for your team.
 
-I am writing to express my interest in the [Position Name] position at [Company Name]...
+I've been a financial quant at Security Benefit for 18 months. While I've learned
+a lot, I miss the direct interaction with people and the chance to spark interest
+in technology. I want to be in a role that combines my technical skills with
+community engagement.
 
-stuff here
+As a Developer Advocate, I plan to write clear documentation, create straightforward
+tutorials, and present at conferences. Listening to customers and relaying their
+feedback to our developers is a priority for me. Being a developer, I understand
+the technical side and aim to bridge the gap between our team and our users effectively.
 
-mire stuff
+Thanks for considering my application. I'm keen to join [Company Name] and make
+a meaningful contribution.
 
-% Your content here
+\vspace{0.5cm}
 
-\closing{Sincerely,}
-\vspace{1em}
-[Your Name]
 
-\end{letter}
+\makeletterclosing
+
 \end{document}
- 
+
+
+%% end of file `template.tex'.
